@@ -1,0 +1,19 @@
+# --- Secrets & Environment ---
+.env
+.env.local
+.env.*
+!.env.example
+
+# --- Python Virtual Environments ---
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+
+# --- AI & LangChain Specific ---
+.langchain/
+*.log
+data/
+downloads/
